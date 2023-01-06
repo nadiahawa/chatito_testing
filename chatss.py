@@ -35,5 +35,5 @@ def main():
     intent = sys.argv[3]
     gen_train = Chatito2Cognigy(input_template_path, output_path, intent) 
     gen_train.write_intents()
-if __name__ == '__main__':
-    main()
+    if __name__ == '__main__':
+        main()
